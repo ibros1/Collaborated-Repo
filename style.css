@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.courses{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+.course{
+    width: 25%;
+    height: 600px;
+    border: 2px solid rgb(232, 232, 232);
+   border-radius: 8px;
+   transition: transform 0.6s ease;
+    cursor: pointer;
+}
+.course:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.6s ease;}
+    
+.cover{
+    width: 350px;
+    margin: 5px auto;
+}
+.cover img{
+    width: 100%;
+    border-radius: 8px;
+}
+.brand{
+    display: flex;
+    margin-left: 20px;
+}
+.brandImage{
+    width: 30px;
+}
+.brandImage img{
+    width: 100%;
+    border-radius: 8px;
+}
+.brandName{
+ margin-top: 10px;  
+ margin-left: 5px;
+ font-family: sans-serif;
+ font-weight: 100;
+ font-size: 14px;
+}
+.courseDetails{
+    margin-left:20px;
+    margin-top: 20px;
+}
+.courseTitle{
+    margin-bottom: 15px;
+}
+.courseDescription{
+    color: rgb(108, 108, 108);
+}
+span{
+    font-weight: bold;
+    color: black;
+}
+.award{
+    margin-top: 20px;
+    
+}
+.award h5{
+    color: blue;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+hr{
+    margin-top: 40px;
+    width: 100%;
+}
